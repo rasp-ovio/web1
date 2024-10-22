@@ -1,0 +1,68 @@
+body {
+
+    background-color: rgb(66, 66, 66);
+
+}
+
+.background {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 10px 10px 1px 1px rgb(100, 100, 100);
+
+}
+.top {
+    color: white;
+    display: flex;
+    background-color: gray;
+    margin-top: -1%;
+    margin-left:2%;
+    margin-right: 2%;
+    margin-bottom: 3%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 10px 10px 1px 1px rgb(100, 100, 100);
+
+}
+
+#home {
+    background-color: rgb(109, 109, 109);
+    border: 12px white;
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 9%;
+    margin-left: 10px;
+    margin-right: 100%;
+    box-shadow: 10px 10px 8px rgb(68, 68, 68);
+    transition: all 1s ease;
+}
+#home:hover {
+
+    background-color: rgb(187, 187, 187);
+    box-shadow: 10px 10px 8px rgb(105, 105, 105);
+    transform: scale(1.1);
+}
+
+#pag1 {
+
+margin-left: 10%;
+
+}
+
+#pag1, #pag2, #pag3, #pag4 {
+    background-color: rgb(109, 109, 109);
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgb(68, 68, 68);
+    transition: all 1s ease;
+    }
+#pag1:hover, #pag2:hover, #pag3:hover, #pag4:hover {
+    transform: scale(1.1);
+}
